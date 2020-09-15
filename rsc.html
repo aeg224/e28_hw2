@@ -5,27 +5,37 @@
 
 <script src='mechanics.js' defer></script>
 </head>
-<body class="alert alert-info" role='alert'>
+<body class='m-5 bg-secondary text-white'>
 
 <!-- As a link -->
 <nav class="navbar navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Rock, Paper Scissors</a>
+  <a class="navbar-brand" href="#">E28 HW2</a>
 </nav>
 
-<h1>
-Rock Paper Scissors
-</h1>
-<div id="user_options">
-<input type="radio" id="Rock" name="userMove" value="Rock">
-<label for="Rock">Rock</label><br>
-<input type="radio" id="Paper" name="userMove" value="Paper">
-<label for="Paper">Paper</label><br>
-<input type="radio" id="Scissors" name="userMove" value="Scissors">
-<label for="Scissors">Scissors</label>
+<center>
+<div class="card text-white bg-success" >
+  <div class="card-header">Rock Paper Scissors</div>
+  <div class="card-body">
+    <h5 class="card-title">Make a Choice</h5>
+<p class="card-text">
+<label class="radio-inline">
+<input type="radio" id="Rock" name="userMove" value="Rock">Rock
+</label>
+<label class="radio-inline">
+<input type="radio" id="Paper" name="userMove" value="Paper">Paper
+</label>
+<label class="radio-inline">
+<input type="radio" id="Scissors" name="userMove" value="Scissors">Scissors
+</label>
+
 <button id=test>Move</button>
 
 </div>
-
+<center>
 <div id="Results"> </div>
+  </div></center>
+</div>
+
+</center>
 </body>
 </html>
