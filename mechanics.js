@@ -3,7 +3,7 @@
 
 document.getElementById('test').onclick = function(){
 
-// generates Random Number (Approach Found on w3 schools https://www.w3schools.com/js/js_arrays.asp)
+// generates Random Number (Approach Found on w3 schools https://www.w3schools.com/js/js_random.asp)
 	let num = Math.floor(Math.random() *3);
 
 
